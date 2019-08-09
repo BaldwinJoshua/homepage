@@ -1,0 +1,28 @@
+Original
+  Grey: #272727
+  Gray: #666
+  Blak: #000
+  Wite: #fff
+  Yelo: #fffb96
+  Blue: #05ffa1
+  Purp: #a050ea
+  Gren: #006700
+
+OPM
+  Skin/pech: #dcb59c 
+  Suit/yell: #edbf64
+  Belt/blak: #2e302f
+  Bukl/gold: #b69043
+  Hand/redd: #973e30
+
+Sunset
+  Skytop: #7d119e
+  Skybot: #cb4031
+  Seacol: #75012c
+  Grstop: #76391a
+  Grsbot: #3b2b1a
+  Forgnd: #19071b
+  Clouds: #f45848
+
+1900/980
+1904/981
