@@ -16,20 +16,41 @@ function getTime(boolmonthday, boolsec) {
     sec = date.getSeconds(),
     hour = date.getHours(),
     month = monthNames[date.getMonth()],
-    day = date.getDay(),
-    strout = "";
+    day = date.getDate(),
+    strout = "",
+    nth = "";
 
   if (boolmonthday) {
-    strout +=
-      month + " " + day + (day % 10 == 1 ? "st " : (day % 10 == 2 ? "nd " : (day % 10 == 3 ? "rd " : "th ")));
+    strout += month + " " + day;
+    switch (day) {
+      case 1:
+      case 21:
+      case 31:
+        nth = "st ";
+        break;
+      case 2:
+      case 22:
+        nth = "nd ";
+        break;
+      case 3:
+      case 23:
+        nth = "rd ";
+        break;
+      default:
+        nth = "th ";
+        break;
+    }
+
+    strout += nth;
+
   }
 
   strout += (hour < 10 ? ("0" + hour) : hour) + ":" +
     (min < 10 ? ("0" + min) : min);
 
-  if(boolsec){
-    strout +=  + ":" +
-    (sec < 10 ? ("0" + sec) : sec);
+  if (boolsec) {
+    strout += +":" +
+      (sec < 10 ? ("0" + sec) : sec);
   }
 
   return strout;
