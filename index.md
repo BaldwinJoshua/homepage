@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Welcome Home</title>
+    <link id="style" rel="stylesheet" href="styles/gruv.css">
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- <div id="search">
+        <input id="search-field" type="text" name="search-field" onkeypress="return search(event)" />
+    </div> -->
+    <div class="container">
+        <!-- <select id="styleSelect">
+            <option value="styles/sunset.css">Sunset</option>
+            <option value="styles/saitama.css">OPM</option>
+        </select> -->
+        <div id="clock"></div>
+        <div class="weather-container">
+            <div class="row">
+                <div id="temp" class="inline"></div>
+                <div class="inline"> and </div>
+                <div id="weather-description" class="inline"></div>
+            </div>
+        </div>
+        <div class="bookmark-container">
+            <div class="bookmark-set">
+                <div class="bookmark-title">Reddit</div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="https://reddit.com/r/unixporn" target="_blank">/r/unixporn</a>
+                    <a class="bookmark" href="https://reddit.com/r/buildapcsales" target="_blank">/r/buildapcsales</a>
+                    <a class="bookmark" href="https://reddit.com/r/coolguides" target="_blank">/r/coolguides</a>
+                    <a class="bookmark" href="https://reddit.com/r/decidingtobebetter" target="_blank">/r/decidingtobebetter</a>
+                    <a class="bookmark" href="https://reddit.com/r/iwanttolearn" target="_blank">/r/iwanttolearn</a>
+                    <a class="bookmark" href="https://reddit.com/r/pixelart" target="_blank">/r/pixelart</a>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">Media</div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="https://youtube.com/feed/subscriptions" target="_blank">Youtube</a>
+                    <a class="bookmark" href="https://netflix.com/browse" target="_blank">Netflix</a>
+                    <a class="bookmark" href="https://hulu.com" target="_blank">Hulu</a>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">Comics</div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="https://www.theduckwebcomics.com/Modest_Medusa/" target="_blank">Modest
+                        Medusa (MWF)</a>
+                </div>
+            </div>
+            <div class="bookmark-set">
+                <div class="bookmark-title">Gaming</div>
+                <div class="bookmark-inner-container">
+                    <a class="bookmark" href="http://www.kongregate.com/" target="_blank">Kongregate</a>
+                    <a class="bookmark" href="http://store.steampowered.com/" target="_blank">Steam</a>
+                    <a class="bookmark" href="https://www.humblebundle.com/" target="_blank">Humble</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js">
+    </script>
+
+</body>
+
+</html>
