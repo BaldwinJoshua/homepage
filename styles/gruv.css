@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 body {
-    offset: 0;
-    /* background-image: linear-gradient(#7d119e,#7d119e,#7d119e,#7d119e,#cb4031,#cb4031,#3b2b1a,#3b2b1a) */
-    background-image: url("images/sunset.png");
+    background: #3c3836;
 }
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: top;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -19,15 +17,15 @@ body {
     font-size: 3.5rem;
     font-weight: 600;
     font-family: "Roboto Mono";
-    color: #f45848;
-    text-shadow: -3px 3px 2px #75012c;
-    margin-bottom: .25em;
+    color: #ebdbb2;
 }
 
+
+/* 
 #search {
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
+    width: 99%;
+    height: 90vh;
+    background-color: #2e3440;
     display: none;
     position: absolute;
     box-sizing: border-box;
@@ -37,28 +35,23 @@ body {
 }
 
 #search-field {
-    width: 90%;
+    width: 100%;
     padding: .75em 1em;
     box-sizing: border-box;
-    background-color: #272727;
-    border: solid 0px #272727;
-    font-family: "Roboto Mono";
-    font-size: 4rem;
-    color: #006700;
-    /* color: #f2f2f2; */
-    outline: none;
-    border-radius: 3px;
-    margin-bottom: 1em;
-    text-align: center;
-}
-
-.weather-container {
-    width: 30%;
-    background-color: #75012c;
-    padding: 0.5em;
+    background-color: #3b4252;
+    border: solid 2px #8fbcbb;
     border-radius: 30px;
     font-family: "Roboto Mono";
-    color: #f45848;
+    font-size: 4rem;
+    color: #8fbcbb;
+    margin-bottom: 1em;
+    text-align: center;
+} */
+
+.weather-container {
+    padding: 0.5em;
+    font-family: "Roboto Mono";
+    color: #689d6a;
     text-align: center;
 }
 
@@ -76,7 +69,7 @@ body {
 
 .bookmark-set {
     padding: 1em;
-    background-color: #f45848;
+    background-color: #665c54;
     border-radius: 30px;
     font-family: "Roboto Mono";
     font-size: .85rem;
@@ -84,6 +77,8 @@ body {
     /* height: 10em; */
     height: auto;
     margin: 0em .25em;
+    border-top: solid 2px #b16286;
+    border-bottom: solid 2px #b16286;
 }
 
 .bookmark-inner-container {
@@ -95,34 +90,17 @@ body {
 .bookmark-title {
     font-size: 1.1rem;
     font-weight: 600;
-    color: #75012c;
+    color: #d79921;
     margin: 0em 0em .35em 0em;
 }
 
 .bookmark {
     text-decoration: none;
-    color: #19071b;
+    color: #689d6a;
     display: block;
-    margin: .5em 0em;
+    margin: 0 0.25em;
 }
 
 .bookmark:hover {
-    color: #75012c;
-}
-
-@media only screen and (max-width: 960px) {
-    .container {
-        height: 100vh;
-    }
-    #clock {
-        margin-top: 1em;
-    }
-    .container>.bookmark-container {
-        flex-direction: column;
-        width: 60%;
-    }
-    .bookmark-container>.bookmark-set {
-        width: auto;
-        margin: 0.25em 0em;
-    }
+    color: #458588;
 }
